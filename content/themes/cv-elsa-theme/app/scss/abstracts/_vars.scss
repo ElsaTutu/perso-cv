@@ -1,0 +1,51 @@
+// Chargement des fichiers font de FA
+$fa-font-path: '~font-awesome/fonts';
+
+
+// Breakpoints
+$breakpoint-medium: 800px;
+$breakpoint-large: 800px;
+$breakpoint-extra-large: 1200px;
+
+
+// Fonts (family, size)
+$font-size-small: 14px;
+$font-size: 16px;
+$font-size-medium: 18px;
+$font-size-medium-large: 22px;
+$font-size-large: 30px;
+
+$font-family: 'Quicksand', sans-serif;
+$font-family-fallback: 'Roboto', Arial, sans-serif;
+
+$line-height: 2;
+
+
+// Couleurs
+$white: #FFF;
+$black: #000;
+$mint: #55E6C6;
+$mint-dark: #6DDAD9;
+
+$background-color: $white;
+
+
+// text
+$text-color: $black;
+$letter-spacing: 1px;
+
+
+//nav
+$menu-primary: $mint;
+$menu-secondary: #FFF;
+$menu-items: 8vmin;
+
+//animation
+  $duration: 1s;
+  $nav-duration: calc(var(--duration) / 4);
+  $ease: cubic-bezier(0.215, 0.61, 0.355, 1);
+  $space: 1rem;
+
+
+
+

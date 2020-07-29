@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
+
+html,
+body {
+    font-size: $font-size;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+
+}
+
+body{
+    font-size: $font-size;
+}
