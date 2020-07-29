@@ -20,10 +20,14 @@
 
 // 4. Layout
 @import
+    'layout/header',
     'layout/intro',
-    'layout/main-nav';
+    'layout/timeline';
 
 // 5. Components
+@import 
+    'components/main-nav',
+    'components/pulse-button';
 
 
 // 6. Shame

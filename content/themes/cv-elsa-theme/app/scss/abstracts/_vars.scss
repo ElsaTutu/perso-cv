@@ -13,7 +13,7 @@ $font-size-small: 14px;
 $font-size: 16px;
 $font-size-medium: 18px;
 $font-size-medium-large: 22px;
-$font-size-large: 30px;
+$font-size-large: 7vmin;
 
 $font-family: 'Quicksand', sans-serif;
 $font-family-fallback: 'Roboto', Arial, sans-serif;
@@ -25,7 +25,9 @@ $line-height: 2;
 $white: #FFF;
 $black: #000;
 $mint: #55E6C6;
+$mint-transparent: #55e6c721;
 $mint-dark: #6DDAD9;
+$grey: rgb(153, 152, 152);
 
 $background-color: $white;
 
@@ -44,7 +46,7 @@ $menu-items: 8vmin;
   $duration: 1s;
   $nav-duration: calc(var(--duration) / 4);
   $ease: cubic-bezier(0.215, 0.61, 0.355, 1);
-  $space: 1rem;
+  $space: 1em;
 
 
 

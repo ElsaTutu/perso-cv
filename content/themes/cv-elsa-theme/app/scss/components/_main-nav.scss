@@ -3,13 +3,9 @@
 :root {
 
   --duration: 1s;
-  // --nav-duration: calc(var(--duration) / 4);
   --ease: cubic-bezier(0.215, 0.61, 0.355, 1);
   --space: 1rem;
-  // --font-primary: "Helvetica", sans-serif;
-  // --font-heading: "Merriweather", serif;
-  // --font-size: 1.125rem;
-  // --line-height: 1.5;
+
 }
 
 
@@ -20,6 +16,7 @@
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
   white-space: nowrap;
+  box-shadow: 5px 10px #888888;;
 
   + label {
     position: fixed;
@@ -38,6 +35,8 @@
   width: var(--size);
   height: var(--size);
   stroke-width: 6;
+  position: relative;
+  z-index: 1000;
 }
 
 .icon-group {
