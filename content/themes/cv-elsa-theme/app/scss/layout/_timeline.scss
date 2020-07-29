@@ -1,5 +1,5 @@
 .experiences {
-  background: $mint;
+  background: $mint-transparent;
   padding: 50px 0;
 }
 
@@ -17,6 +17,9 @@ h1 {
 
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.timeline_block:hover {
+  background: $mint;
+}
 
 .timeline ul {
   background: $white;
@@ -49,7 +52,7 @@ h1 {
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: $mint;
+  background: $mint-transparent;
 }
 
 .timeline ul li div::before {
@@ -68,7 +71,8 @@ h1 {
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent $mint transparent transparent;
+  border-color: transparent $mint-transparent transparent transparent;
+  
 }
 
 .timeline ul li:nth-child(even) div {
@@ -78,7 +82,7 @@ h1 {
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent $mint;
+  border-color: transparent transparent transparent $mint-transparent;
 }
 
 time {
@@ -147,6 +151,6 @@ time {
   .timeline ul li:nth-child(even) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #F45B69 transparent transparent;
+    border-color: transparent $mint-transparent transparent transparent;
   }
 }
