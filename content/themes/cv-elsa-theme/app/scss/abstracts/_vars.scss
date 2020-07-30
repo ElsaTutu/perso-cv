@@ -17,6 +17,7 @@ $font-size-large: 7vmin;
 
 $font-family: 'Quicksand', sans-serif;
 $font-family-fallback: 'Roboto', Arial, sans-serif;
+$font-family: "Open Sans", sans-serif;
 
 $line-height: 2;
 
@@ -28,8 +29,9 @@ $mint: #55E6C6;
 $mint-transparent: #55e6c721;
 $mint-dark: #6DDAD9;
 $grey: rgb(153, 152, 152);
+$grey-clear: #F9F9F9;
 
-$background-color: $white;
+$background-color: $grey-clear;
 
 
 // text

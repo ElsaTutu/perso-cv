@@ -1,0 +1,88 @@
+//https://codepen.io/gongchangco/pen/RwweKgO
+/* Wrapper */
+.wrapper_badge {
+  width: 100%;
+	margin: 0em auto;
+	text-align: center;
+}
+
+/* Badge */
+.badge {
+
+	margin: 1.5em 1.5em;
+	width: 6.4em;
+	height: 6.4em;
+	border-radius: 50%;
+	display: inline-block;
+	top: 0;
+	transition: all 0.2s ease;
+  box-shadow: 6px 6px 6px 1px rgba(0, 0, 0, 0.15);
+
+  @media (min-width: 1200px) {
+    margin: 1.5em 3em;
+  }
+}
+
+.rounded {
+  width: 70px;
+	height: 70px;
+  background: white;
+  position: absolute;
+  margin: 15px 16px auto;
+	border-radius: 50%;
+  box-shadow: 6px 6px 6px 1px rgba(0, 0, 0, 0.15);
+  background-position: center;
+  background-size: 2.6em 2.6em;
+  background-repeat: no-repeat;
+  
+}
+
+
+/* Colors */
+.html {
+    background: #e44d26;
+}
+
+.css {
+  background: #274ee9;
+}
+
+.js {
+  background: #f7df1e;
+}
+
+.php {
+  background: #777bb3;
+}
+
+.code {
+  background: rgb(36, 226, 240);
+}
+
+.npm {
+  background: #c73536;
+}
+
+.github {
+  background: #24282e;
+}
+
+.sass {
+  background: #c35990;
+}
+
+.bootstrap {
+  background: #533b78;
+}
+
+.wordpress {
+  background: #21759b;
+}
+
+.bug {
+  background: rgb(243, 32, 32);
+}
+
+.search {
+  background: $mint;
+}

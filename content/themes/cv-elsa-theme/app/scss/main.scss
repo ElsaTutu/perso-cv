@@ -8,7 +8,8 @@
     
 
 // 2. Vendors
-
+@import
+    '~font-awesome/scss/font-awesome';
 
 
 // 3. Base
@@ -20,14 +21,19 @@
 
 // 4. Layout
 @import
+    'layout/a-propos',
+    'layout/formation',
     'layout/header',
     'layout/intro',
     'layout/timeline';
 
 // 5. Components
 @import 
+    'components/badge',
+    'components/buttons',
     'components/cards',
     'components/main-nav',
+    'components/parallax',
     'components/pulse-button';
 
 

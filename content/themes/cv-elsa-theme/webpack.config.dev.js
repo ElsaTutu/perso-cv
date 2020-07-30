@@ -32,6 +32,19 @@ let config = {
   devtool: 'source-map',
   module: {
     rules: [
+            // Fonts
+      {
+        test: /\.(woff(2)?|ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]',
+            outputPath: 'fonts/',
+            publicPath: '../fonts',
+            esModule: false
+          }
+        },
+      },
       // Sass
       {
         test: /\.(sa|sc|c)ss$/,

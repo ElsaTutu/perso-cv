@@ -1,0 +1,28 @@
+//https://codepen.io/alexoneal/pen/OBqaoe 
+/* Parallax CSS */
+.parallax_effect {
+ background-image: url("/images/clouds.jpg");
+  background-size: 100%;
+  height: 250px;
+  width: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+}
+@media (max-width: 767px) {
+  .parallax_effect {
+    height: 125px;
+    width: 125px;
+  }
+}
+
+
+/* Image CSS for your SVG */
+img {
+  height: 100%;
+  width: 100%;
+}
