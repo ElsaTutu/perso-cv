@@ -1,6 +1,4 @@
 .container {
-  
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,7 +31,11 @@
 }
 
 .container_title{
-  font-size: $font-size-large;
+  font-size: 2.75rem;
+
+  @media (min-width: 600px){
+    font-size: 5.25rem;
+  }
 }
 
 .container_p,
