@@ -1,0 +1,75 @@
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5em;
+  @media (min-width: 900px){
+    padding: 0.5em;
+  }
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  width: 100%;
+  // height: 200px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  margin: 1em 3em;
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 400px;
+  width: auto;
+   background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (min-width: 900px) {
+    padding: 0.5em;
+  }
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    // margin-bottom: 20px;
+  }
+}
+
+
+//overlay effect
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  // position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
